@@ -321,7 +321,9 @@
 .sidebar-action:not(:last-child) {
   margin-right: 15px;
 }
-
+.sidebar-action:nth-child(3){
+  display: none;
+}
 .chat {
   display: flex;
   flex-direction: column;
